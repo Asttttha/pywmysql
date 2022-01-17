@@ -1,4 +1,3 @@
-#connectivity of PYTHON with MYSQL.
 print("PROJECT FOODVILLA")
 import mysql.connector
 import sys
