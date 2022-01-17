@@ -1,5 +1,4 @@
 # pywmysql
-My first repository 
 import mysql.connector
 import sys
 def data():
