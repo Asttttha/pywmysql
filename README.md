@@ -1,4 +1,5 @@
-# pywmysql
+#connectivity of PYTHON with MYSQL.
+print("PROJECT FOODVILLA")
 import mysql.connector
 import sys
 def data():
@@ -23,6 +24,7 @@ def table():
                          cursor.execute("insert into MENU values ('Snacks',06)") 
                      except:
                          print("Table already created")
+
 def select():
                                          db=mysql.connector.connect(host="localhost",user="root",passwd="2003",database="FOODVILLA",table="MENU")
                                          cursor=db.cursor()
